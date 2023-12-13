@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
      */
     private fun rollDice() {
 //        Create new Dice object with 6 sides and roll the dice
-        val dice = Dice(6)
-        val diceRoll = dice.roll()
+        val firstDice = Dice(6)
+        val diceRoll = firstDice.roll()
 
 //        find the imageview in the layout
         val diceImage: ImageView = findViewById(R.id.imageView)
